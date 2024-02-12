@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: column;-->
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+.web {
+    height: min-content;
+    margin-top: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+main {
+    padding: 20px;
+}
+.input-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.input-field {
+    outline: none;
+    border-radius: 10px;
+    border: solid black;
+    padding: 10px 10px;
+}
+.input-field:focus {
+    border: solid aqua;
+}
+.tombol1 {
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.tombol1:hover {
+    background-color: rgb(3, 3, 65);
+}
+.tombol1:active {
+    background-color: rgb(1, 1, 28);
+}
+.tombol2 {
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.tombol2:hover {
+    background-color: rgb(3, 3, 65);
+}
+.tombol2:active {
+    background-color: rgb(1, 1, 28);
+}
+.tombol3 {
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.tombol3:hover {
+    background-color: rgb(3, 3, 65);
+}
+.tombol3:active {
+    background-color: rgb(1, 1, 28);
+}
+.input-section1 {
+    display: flex;
+    flex-direction: column;
+}
+.input-field1 {
+    outline: none;
+    border-radius: 10px;
+    border: solid black;
+    padding: 10px 10px;
+}
+.input-section2 {
+    display: flex;
+    flex-direction: column;
+}
+.input-field2 {
+    outline: none;
+    border-radius: 10px;
+    border: solid black;
+    padding: 10px 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
